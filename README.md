@@ -3,7 +3,7 @@ A brief documentation of our webhooks.
 
 ## Fields
 
-|  Fieldname   |      Type      |       Response       | Description |
+|  Fieldname   |      Type      |       Response Example       | Description |
 | :----------: | :------------: | :-----------------: | :---: |
 |   currency   |     string     |      "BRL"      | BRL or USD  |
 | payment_engine | string | "pepper" | Constant field |
