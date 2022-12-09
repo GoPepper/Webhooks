@@ -9,7 +9,7 @@ A brief documentation of our webhooks.
 | payment_engine | string | "pepper" | Constant field |
 | transaction | string | "PP56489423" | Transactions Id |
 | payment_type | string | "Billet" | Pix, Billet, Card |
-| status | string | "Paid" | Created, WaitingPayment, Paid, Refused, Refunded | 
+| status | string | "Paid" | Created, WaitingPayment, Paid, Refused, Refunded, Chargeback | 
 | prod | int32 | 10000 | Product Id |
 | prod_name | string | "Maratona Javascript em 30 dias" | Product name |
 | producer_name | string | "Escola de curso online LTDA" | Producer name |
@@ -33,3 +33,7 @@ A brief documentation of our webhooks.
 | last_name | string | "Maria" | Client last name |
 | doc | string | "111.222.333-45" | Client document number |
 | phone_number | string | "+5511970503010" | Client phone number |
+| billet_url | string | "https://pepper.com.br/example" | Billet payment page |
+| billet_barcode | string | "00000 11111 22222 333333" | Billet Barcode |
+| pix_URL | string | "https://pepper.com.br/example" | Pix payment page |
+| pix_qrcode | string | "0002010100006820014br.example" | Pix QRCode |
