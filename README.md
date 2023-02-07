@@ -37,3 +37,80 @@ A brief documentation of our webhooks.
 | billet_barcode | string | "00000 11111 22222 333333" | Billet Barcode |
 | pix_URL | string | "https://pepper.com.br/example" | Pix payment page |
 | pix_qrcode | string | "0002010100006820014br.example" | Pix QRCode |
+
+
+# Transação
+
+A transação contém informações relacionadas a um pagamento realizado por um cliente.
+
+## Campos da Transação
+
+### currency
+
+- Tipo: string
+- Descrição: A moeda utilizada na transação. Exemplo: "BRL".
+
+### payment_engine
+
+- Tipo: string
+- Descrição: O nome da plataforma que processou o pagamento. Exemplo: "pepper".
+
+### transaction
+
+- Tipo: string
+- Descrição: O identificador único da transação. Exemplo: "PP126".
+
+### payment_type
+
+- Tipo: string
+- Descrição: O tipo de pagamento utilizado na transação. Exemplo: "Card".
+
+### status
+
+- Tipo: string
+- Descrição: O status atual da transação. Exemplo: "Paid".
+
+### prod
+
+- Tipo: int
+- Descrição: O identificador único do produto adquirido na transação. Exemplo: 10002.
+
+### prod_name
+
+- Tipo: string
+- Descrição: O nome do produto adquirido na transação. Exemplo: "LALALA 2a".
+
+### producer_name
+
+- Tipo: string
+- Descrição: O nome completo do produtor do produto adquirido na transação. Exemplo: "Alexandre Flores John".
+
+### producer_document
+
+- Tipo: string
+- Descrição: O documento do produtor do produto adquirido na transação. Exemplo: "023.832.780-92".
+
+### producer_legal_nature
+
+- Tipo: string
+- Descrição: A natureza jurídica do produtor do produto adquirido na transação. Exemplo: "Pessoa física".
+
+### purchase_date
+
+- Tipo: string
+- Descrição: A data e hora da compra na transação. Exemplo: "2023-02-07 18:15:52".
+
+### confirmation_purchase_date
+
+- Tipo: string
+- Descrição: A data e hora da confirmação da compra na transação. Exemplo: "2023-02-07 18:16:04".
+
+### product_support_email
+
+- Tipo: string
+- Descrição: O email de suporte ao produto adquirido na transação. Exemplo: "askamskm@gmail.com".
+
+### installments_number
+
+- Tipo: int
+- Descrição: O número de parcelas da transação
