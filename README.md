@@ -118,21 +118,21 @@ A transação contém informações relacionadas a um pagamento realizado por um
 
 # Exemplo em JSON:
 
-```
+```javascript
 {
   "currency": "BRL",
   "payment_engine": "pepper",
-  "transaction": "PP126",
+  "transaction": "PP000",
   "payment_type": "Card",
   "status": "Paid",
-  "prod": 10002,
-  "prod_name": "LALALA 2a",
+  "prod": 000000,
+  "prod_name": "Fórmula Javascript",
   "producer_name": "Alexandre Flores John",
-  "producer_document": "023.832.780-92",
+  "producer_document": "123.456.789-00",
   "producer_legal_nature": "Pessoa física",
   "purchase_date": "2023-02-07 18:15:52",
   "confirmation_purchase_date": "2023-02-07 18:16:04",
-  "product_support_email": "askamskm@gmail.com",
+  "product_support_email": "suporte@email.com",
   "installments_number": 12,
   "original_offer_price": 100,
   "warranty_date": "2023-02-14 18:16:04",
@@ -143,14 +143,14 @@ A transação contém informações relacionadas a um pagamento realizado por um
   "price": 100,
   "full_price": 138.28,
   "email": "alexandre.john@sistemaprismatec.com",
-  "name": "Alexandre Flores John",
-  "first_name": "Alexandre",
-  "last_name": "John",
-  "doc": "023.832.780-92",
-  "phone_number": "+5551995790236",
+  "name": "Robert Downey Jr",
+  "first_name": "Robert",
+  "last_name": "Jr",
+  "doc": "987.654.321-10",
+  "phone_number": "+551122233344",
   "billet_url": null,
   "billet_barcode": null,
-  "pix_URL": "https://pepper.com.br/checkout/obrigado-pix.html?id=126",
+  "pix_URL": "https://pepper.com.br/checkout/obrigado-pix.html?id=000",
   "pix_qrcode": null
 }
 ```
