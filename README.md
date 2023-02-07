@@ -114,3 +114,43 @@ A transação contém informações relacionadas a um pagamento realizado por um
 
 - Tipo: int
 - Descrição: O número de parcelas da transação
+
+
+# Exemplo em JSON:
+
+```
+{
+  "currency": "BRL",
+  "payment_engine": "pepper",
+  "transaction": "PP126",
+  "payment_type": "Card",
+  "status": "Paid",
+  "prod": 10002,
+  "prod_name": "LALALA 2a",
+  "producer_name": "Alexandre Flores John",
+  "producer_document": "023.832.780-92",
+  "producer_legal_nature": "Pessoa física",
+  "purchase_date": "2023-02-07 18:15:52",
+  "confirmation_purchase_date": "2023-02-07 18:16:04",
+  "product_support_email": "askamskm@gmail.com",
+  "installments_number": 12,
+  "original_offer_price": 100,
+  "warranty_date": "2023-02-14 18:16:04",
+  "order_bump": false,
+  "cms_market_place": 5.899999999999999,
+  "cms_vendor": 94.1,
+  "off": 3,
+  "price": 100,
+  "full_price": 138.28,
+  "email": "alexandre.john@sistemaprismatec.com",
+  "name": "Alexandre Flores John",
+  "first_name": "Alexandre",
+  "last_name": "John",
+  "doc": "023.832.780-92",
+  "phone_number": "+5551995790236",
+  "billet_url": null,
+  "billet_barcode": null,
+  "pix_URL": "https://pepper.com.br/checkout/obrigado-pix.html?id=126",
+  "pix_qrcode": null
+}
+```
