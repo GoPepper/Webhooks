@@ -8,8 +8,8 @@ A brief documentation of our webhooks.
 |     currency      |     string     |             "BRL"            |            BRL, USD          |
 | payment_engine | string | "pepper" | Constant field |
 | transaction | string | "PP56489423" | Transactions Id |
-| payment_type | string | "Billet" | Pix, Billet, Card |
-| status | string | "Paid" | Created, WaitingPayment, Paid, Refused, Refunded, Chargeback | 
+| payment_type | string | "Billet" | Checkout, Pix, Billet, Card |
+| status | string | "Paid" | Abandonment, Created, WaitingPayment, Paid, Refused, Refunded, Chargeback | 
 | prod | int32 | 10000 | Product Id |
 | prod_name | string | "Maratona Javascript em 30 dias" | Product name |
 | producer_name | string | "Escola de curso online LTDA" | Producer name |
