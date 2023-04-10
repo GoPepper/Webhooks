@@ -6,8 +6,10 @@ A brief documentation of our webhooks.
 |     Fieldname     |      Type      |       Response Example       | Possibilities or Description |
 | :---------------: | :------------: | :--------------------------: | :--------------------------: |
 |     currency      |     string     |             "BRL"            |            BRL, USD          |
-| payment_engine | string | "pepper" | Constant field |
-| transaction | string | "PP56489423" | Transactions Id |
+|   payment_engine  |     string     |           "pepper"           |         Constant field       |
+|     transaction   |     string     |         "PP56489423"         |         Transactions Id      |
+|   abandonmentId   |     string     |          "PP213123"          |          Abandonment Id      |
+|     client_id     |   string(guid) |  "00000-0000-0000-0000-000"  | To be used in the recovery of an abandoned cart |
 | payment_type | string | "Billet" | Checkout, Pix, Billet, Card |
 | status | string | "Paid" | Abandonment, Created, WaitingPayment, Paid, Refused, Refunded, Chargeback | 
 | prod | int32 | 10000 | Product Id |
@@ -45,6 +47,8 @@ A brief documentation of our webhooks.
   "currency": "BRL",
   "payment_engine": "pepper",
   "transaction": "PP000",
+  "abandonmentId": "PP000",
+  "client_id": "0000-000-0000",
   "payment_type": "Card",
   "status": "Paid",
   "prod": 000000,
