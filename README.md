@@ -24,6 +24,7 @@ A brief documentation of our webhooks.
 | original_offer_price | float | 29.90 | Price before taxes |
 | warranty_date | string | "2022-08-24 15:10:59" | Warranty deadline |
 | order_bump | bool | false | If product is orderbump |
+| main_transaction | string | "PP56489423" | The main transaction. Could be the same value of transaction field |
 | cms_market_place | float | 3.21 | Platform tax amount |
 | cms_vendor | float | 24.31 | Producer amount |
 | off | int32 | 10232 | Offer Id |
