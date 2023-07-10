@@ -40,6 +40,13 @@ A brief documentation of our webhooks.
 | billet_barcode | string | "00000 11111 22222 333333" | Billet Barcode |
 | pix_URL | string | "https://pepper.com.br/example" | Pix payment page |
 | pix_qrcode | string | "0002010100006820014br.example" | Pix QRCode |
+| utm_campaign | string | "Campaing Name" | Tracking Parameter |
+| utm_source | string | "Source Name" | Tracking Parameter |
+| utm_medium | string | "Medium Name" | Tracking Parameter |
+| utm_content | string | "Content Name" | Tracking Parameter |
+| utm_term | string | "Term Name" | Tracking Parameter |
+| src | string | "Source Name" | Tracking Parameter |
+| sck | string | "Source Name" | Tracking Parameter |
 
 # Exemplo em JSON:
 
@@ -78,6 +85,13 @@ A brief documentation of our webhooks.
   "billet_url": null,
   "billet_barcode": null,
   "pix_URL": "https://pepper.com.br/checkout/obrigado-pix.html?id=000",
-  "pix_qrcode": null
+  "pix_qrcode": null,
+  "utm_campaign": null,
+  "utm_source": null,
+  "utm_medium": null,
+  "utm_content": null,
+  "utm_term": null,
+  "src": null,
+  "sck": null
 }
 ```
